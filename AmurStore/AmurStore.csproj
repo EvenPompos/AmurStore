@@ -198,68 +198,8 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AmurStore.tt</DependentUpon>
     </Compile>
-    <Compile Include="Categories.cs">
-      <DependentUpon>AmurStore.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Clients.cs">
-      <DependentUpon>AmurStore.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Deliveries.cs">
-      <DependentUpon>AmurStore.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Discounts.cs">
-      <DependentUpon>AmurStore.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Employees.cs">
-      <DependentUpon>AmurStore.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Manufactures.cs">
-      <DependentUpon>AmurStore.tt</DependentUpon>
-    </Compile>
-    <Compile Include="OrderDetails.cs">
-      <DependentUpon>AmurStore.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Orders.cs">
-      <DependentUpon>AmurStore.tt</DependentUpon>
-    </Compile>
-    <Compile Include="OrdersStatus.cs">
-      <DependentUpon>AmurStore.tt</DependentUpon>
-    </Compile>
-    <Compile Include="PaymentsStatus.cs">
-      <DependentUpon>AmurStore.tt</DependentUpon>
-    </Compile>
-    <Compile Include="PaymentsType.cs">
-      <DependentUpon>AmurStore.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Position.cs">
-      <DependentUpon>AmurStore.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Products.cs">
-      <DependentUpon>AmurStore.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Role.cs">
-      <DependentUpon>AmurStore.tt</DependentUpon>
-    </Compile>
-    <Compile Include="sp_helpdiagramdefinition_Result.cs">
-      <DependentUpon>AmurStore.tt</DependentUpon>
-    </Compile>
-    <Compile Include="sp_helpdiagrams_Result.cs">
-      <DependentUpon>AmurStore.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Stock.cs">
-      <DependentUpon>AmurStore.tt</DependentUpon>
-    </Compile>
-    <Compile Include="sysdiagrams.cs">
-      <DependentUpon>AmurStore.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Users.cs">
-      <DependentUpon>AmurStore.tt</DependentUpon>
-    </Compile>
     <Compile Include="Views\Sign.xaml.cs">
       <DependentUpon>Sign.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Warehouses.cs">
-      <DependentUpon>AmurStore.tt</DependentUpon>
     </Compile>
     <Page Include="Views\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -358,13 +298,94 @@
       <DependentUpon>AmurStore.edmx</DependentUpon>
       <LastGenOutput>AmurStore.cs</LastGenOutput>
     </Content>
+    <Resource Include="Resources\Images\SSD\Накопитель SSD ТМИ SATA-III 1TB ЦРМП.467512.002-02\Накопитель SSD ТМИ SATA-III 1TB ЦРМП.467512.002-02_v1.jpg" />
     <Resource Include="Resources\Themes\Background.png" />
+    <Resource Include="Resources\Images\PC\Amur Нарвал A5А14 MT\PC_A5A14_MT_v1.png" />
+    <Resource Include="Resources\Images\PC\Amur Нарвал A5А14 MT\PC_A5A14_MT_v2.png" />
+    <Resource Include="Resources\Images\PC\Amur Нарвал A5А14 MT\PC_A5A14_MT_v3.png" />
+    <Resource Include="Resources\Images\PC\Amur Нарвал A5А14 MT\PC_A5A15_MT_v4.png" />
+    <Resource Include="Resources\Images\PC\Amur Нарвал A5А12\PC_A5A12_v1.png" />
+    <Resource Include="Resources\Images\PC\Amur Нарвал A5А12\PC_A5A12_v2.png" />
+    <Resource Include="Resources\Images\PC\Amur Нарвал A5А12\PC_A5A12_v3.png" />
+    <Resource Include="Resources\Images\PC\Amur Нарвал A5А12\PC_A5A12_v4.png" />
+    <Resource Include="Resources\Images\PC\Amur Нарвал A5А12\Без_AMUR\PC_A5A12_v1.png" />
+    <Resource Include="Resources\Images\PC\Amur Нарвал A5А12\Без_AMUR\PC_A5A12_v2.png" />
+    <Resource Include="Resources\Images\PC\Amur Нарвал A5А12\Без_AMUR\PC_A5A12_v3.png" />
+    <Resource Include="Resources\Images\Nettop\AMUR Финвал H6I12\Nettop_H6l12_v1.png" />
+    <Resource Include="Resources\Images\Nettop\AMUR Финвал H6I12\Nettop_H6l12_v2.png" />
+    <Resource Include="Resources\Images\Nettop\AMUR Финвал H6I12\Nettop_H6l12_v3.png" />
+    <Resource Include="Resources\Images\Nettop\AMUR Финвал H6I12\Nettop_H6l12_v4.png" />
+    <Resource Include="Resources\Images\Monoblock\AMUR Тигр H6I12\Monoblock_H6l12_v1.png" />
+    <Resource Include="Resources\Images\Monoblock\AMUR Тигр H6I12\Monoblock_H6l12_v2.png" />
+    <Resource Include="Resources\Images\Monoblock\AMUR Тигр H6I12\Monoblock_H6l12_v3.png" />
+    <Resource Include="Resources\Images\Monoblock\AMUR Тигр H6I12\Monoblock_H6l12_v4.png" />
+    <Resource Include="Resources\Images\Laptop\iRU 15ALC\iRU 15ALC_v1.png" />
+    <Resource Include="Resources\Images\Monoblock\iRU Strato 31.5\iRU Strato 31.5_v1.png" />
+    <Resource Include="Resources\Images\Monoblock\iRU Tactio 24ID\iRU Tactio 24ID_v1.png" />
+    <Resource Include="Resources\Images\Motherboard\Материнская плата IRU A520M-VHDiM.2\Материнская плата IRU A520M-VHDiM.2_v1.png" />
+    <Resource Include="Resources\Images\Motherboard\Материнская плата IRU H610M-VHDD4M.2\Материнская плата IRU H610M-VHDD4M.2_v1.png" />
+    <Resource Include="Resources\Images\Nettop\iRU Planio 115\iRU Planio 115_v1.png" />
+    <Resource Include="Resources\Images\Nettop\iRU Tactio 525\iRU Tactio 525_v1.png" />
+    <Resource Include="Resources\Images\PC\iRU 510H6SEA\iRU 510H6SEA_v1.png" />
+    <Resource Include="Resources\Images\PC\IRU Home 510B7SE\IRU Home 510B7SE_v1.png" />
+    <Resource Include="Resources\Images\PC\IRU Office 310H6SM\IRU Office 310H6SM_v1.png" />
+    <Resource Include="Resources\Images\Server\iRU S9108E\iRU S9108E_v1.png" />
+    <Resource Include="Resources\Images\Motherboard\Материнская плата MSI PRO B650M-E\Материнская плата MSI PRO B650M-E_v1.jpg" />
+    <Resource Include="Resources\Images\Motherboard\Материнская плата MSI B450M-A PRO MAX\Материнская плата MSI B450M-A PRO MAX_v1.jpg" />
+    <Resource Include="Resources\Images\Motherboard\Материнская плата MSI PRO B760M-E\Материнская плата MSI PRO B760M-E_v1.jpg" />
+    <Resource Include="Resources\Images\Motherboard\Материнская плата Asus PRIME 650M-A ll-CSM\Материнская плата Asus PRIME 650M-A ll-CSM_v1.jpg" />
+    <Resource Include="Resources\Images\Motherboard\Материнская плата Asus PRIME B550M-K\Материнская плата Asus PRIME B550M-K_v1.jpg" />
+    <Resource Include="Resources\Images\Motherboard\Материнская плата Asus PRIME B760M-K\Материнская плата Asus PRIME B760M-K_v1.jpg" />
+    <Resource Include="Resources\Images\Motherboard\Материнская плата Asrock B650 PG LIGHTNING\Материнская плата Asrock B650 PG LIGHTNING_v1.jpg" />
+    <Resource Include="Resources\Images\Motherboard\Материнская плата Asrock B760M-HDV M.2 D4\Материнская плата Asrock B760M-HDVM.2 D4_v1.jpg" />
+    <Resource Include="Resources\Images\Motherboard\Материнская плата Asrock B550M-HDV\Материнская плата Asrock B550M-HDV_v1.jpg" />
+    <Resource Include="Resources\Images\CPU\Процессор AMD Ryzen 5 5600 OEM\Процессор AMD Ryzen 5 5600 OEM_v1.jpg" />
+    <Resource Include="Resources\Images\CPU\Процессор AMD Ryzen 5 5600G OEM\Процессор AMD Ryzen 5 5600G OEM_v1.jpg" />
+    <Resource Include="Resources\Images\CPU\Процессор AMD Ryzen 5 7500F OEM\Процессор AMD Ryzen 5 7500F OEM_v1.jpg" />
+    <Resource Include="Resources\Images\CPU\Процессор Intel Core i5-12400F OEM\Процессор Intel Core i5-12400F OEM_v1.jpg" />
+    <Resource Include="Resources\Images\CPU\Процессор Intel Core i5-12400 OEM\Процессор Intel Core i5-12400 OEM_v1.jpg" />
+    <Resource Include="Resources\Images\RAM\Память DDR4 8GB 2666MHz ТМИ ЦРМП.467526.001\Память DDR4 8GB 2666MHz ТМИ ЦРМП.467526.001_v1.jpg" />
+    <Resource Include="Resources\Images\RAM\Память DDR4 16GB 3200MHz ТМИ ЦРМП.467526.001-03\Память DDR4 16GB 3200MHz ТМИ ЦРМП.467526.001-03_v1.jpg" />
+    <Resource Include="Resources\Images\RAM\Оперативная память Digma DGMAD43200016D 16 ГБ\Оперативная память Digma DGMAD43200016D 16 ГБ_v1.jpg" />
+    <Resource Include="Resources\Images\RAM\Память DDR4 8GB 3600MHz Digma DGMAD43600008S\Память DDR4 8GB 3600MHz Digma DGMAD43600008S_v1.jpg" />
+    <Resource Include="Resources\Images\RAM\Память DDR4 8GB 2666MHz Patriot PSP48G2666H1\Память DDR4 8GB 2666MHz Patriot PSP48G2666H1_v1.jpg" />
+    <Resource Include="Resources\Images\RAM\Память DDR4 16GB 2666MHz Patriot PSP416G2666H1\Память DDR4 16GB 2666MHz Patriot PSP416G2666H1_v1.jpg" />
+    <Resource Include="Resources\Images\PowerUnit\Блок питания Bloody ATX 500W BD-PS500W\Блок питания Bloody ATX 500W BD-PS500W_v1.jpg" />
+    <Resource Include="Resources\Images\PowerUnit\Блок питания Bloody ATX 650W BD-PS650B\Блок питания Bloody ATX 650W BD-PS650B_v1.jpg" />
+    <Resource Include="Resources\Images\PowerUnit\Блок питания Bloody ATX 750W BD-PS750B\Блок питания Bloody ATX 750W BD-PS750B_v1.jpg" />
+    <Resource Include="Resources\Images\PowerUnit\Блок питания Digma ATX 500W DPSU-500W-WH\Блок питания Digma ATX 500W DPSU-500W-WH_v1.jpg" />
+    <Resource Include="Resources\Images\PowerUnit\Блок питания Digma ATX 650W DPSU-650W-WH\Блок питания Digma ATX 650W DPSU-650W-WH_v1.jpg" />
+    <Resource Include="Resources\Images\PowerUnit\Блок питания Digma ATX 750W DPSU-750W-WH\Блок питания Digma ATX 750W DPSU-750W-WH_v1.jpg" />
+    <Resource Include="Resources\Images\Case\Корпус Оклик OCC-MD301\Корпус Оклик OCC-MD301_v1.jpg" />
+    <Resource Include="Resources\Images\Case\Корпус Digma DCC-MD302\Корпус Digma DCC-MD302_v1.jpg" />
+    <Resource Include="Resources\Images\Case\Корпус LinkWorld 215K-02 + LPW1685-650W IRU\Корпус LinkWorld 215K-02 + LPW1685-650W IRU_v1.jpg" />
+    <Resource Include="Resources\Images\Case\Корпус Оклик OCC-MD304\Корпус Оклик OCC-MD304_v1.jpg" />
+    <Resource Include="Resources\Images\GPU\Видеокарта Asus PCI-E 4.0 DUAL-RTX5060TI-O16G\Видеокарта Asus PCI-E 4.0 DUAL-RTX5060TI-O16G_v1.jpg" />
+    <Resource Include="Resources\Images\GPU\Видеокарта Asus PCI-E 4.0 DUAL-RTX4060TI-A16G\Видеокарта Asus PCI-E 4.0 DUAL-RTX4060TI-A16G_v1.jpg" />
+    <Resource Include="Resources\Images\GPU\Видеокарта MSI GeForce RTX 5060 Ti VENTUS 2X OC PLUS\Видеокарта MSI GeForce RTX 5060 Ti VENTUS 2X OC PLUS_v1.jpg" />
+    <Resource Include="Resources\Images\GPU\Видеокарта MSI GeForce RTX 4070 Ti SUPER VENTUS 3X OC\Видеокарта MSI GeForce RTX 4070 Ti SUPER VENTUS 3X OC_v1.jpg" />
+    <Resource Include="Resources\Images\GPU\Видеокарта Palit GeForce RTX 5060 Ti Infinity 3\Видеокарта Palit GeForce RTX 5060 Ti Infinity 3_v1.jpg" />
+    <Resource Include="Resources\Images\GPU\Видеокарта Palit GeForce RTX 4060 Infinity 2\Видеокарта Palit GeForce RTX 4060 Infinity 2_v1.jpg" />
+    <Resource Include="Resources\Images\SSD\1024 ГБ M.2 NVMe накопитель Digma Mega S3\1024 ГБ M.2 NVMe накопитель Digma Mega S3_v1.jpg" />
+    <Resource Include="Resources\Images\SSD\1000 ГБ 2.5 SATA накопитель Digma\1000 ГБ 2.5 SATA накопитель Digma Run P1 _v1.jpg" />
+    <Resource Include="Resources\Images\SSD\512 ГБ 2.5 SATA накопитель Patriot Memory P210\512 ГБ 2.5 SATA накопитель Patriot Memory P210_v1.jpg" />
+    <Resource Include="Resources\Images\SSD\1000 ГБ M.2 NVMe накопитель Patriot\1000 ГБ M.2 NVMe накопитель Patriot P400 _v1.jpg" />
+    <Resource Include="Resources\Images\SSD\Накопитель SSD ТМИ SATA-III 1TB ЦРМП.467512.001-02\Накопитель SSD ТМИ SATA-III 1TB ЦРМП.467512.001-02_v1.jpg" />
+    <Resource Include="Resources\Images\HDD\1 ТБ Жесткий диск Seagate BarraCuda\1 ТБ Жесткий диск Seagate BarraCuda_v1.jpg" />
+    <Resource Include="Resources\Images\HDD\2 ТБ Жесткий диск Seagate BarraCuda\2 ТБ Жесткий диск Seagate BarraCuda_v1.jpg" />
+    <Resource Include="Resources\Images\HDD\1 ТБ Жесткий диск WD Blue\1 ТБ Жесткий диск WD Blue_v1.jpg" />
+    <Resource Include="Resources\Images\HDD\2 ТБ Жесткий диск WD Blue\2 ТБ Жесткий диск WD Blue_v1.jpg" />
+    <Resource Include="Resources\Images\Cooler\Кулер для процессора Digma D-CPC95-2\Кулер для процессора Digma D-CPC95-2_v1.jpg" />
+    <Resource Include="Resources\Images\Cooler\Кулер для процессора Digma [D-CPC110-PWM1]\Кулер для процессора Digma [D-CPC110-PWM1]_v1.jpg" />
+    <Resource Include="Resources\Images\Cooler\Кулер для процессора DEEPCOOL AG400 [R-AG400-BKNNMN-G-1]\Кулер для процессора DEEPCOOL AG400 [R-AG400-BKNNMN-G-1]_v1.jpg" />
+    <Resource Include="Resources\Images\Cooler\Кулер для процессора DEEPCOOL AK400 [R-AK400-BKNNMN-G-1]\Кулер для процессора DEEPCOOL AK400 [R-AK400-BKNNMN-G-1]_v1.jpg" />
+    <Resource Include="Resources\Images\Laptop\Ноутбук БЕШТАУ LT1502\Ноутбук БЕШТАУ LT1502_v1.jpg" />
+    <Resource Include="Resources\Images\Laptop\Ноутбук «Гравитон» Н15А-Б\Ноутбук «Гравитон» Н15А-Б_v1.jpg" />
     <Content Include="Resources\Themes\logo1.svg" />
     <Content Include="Resources\Themes\logo2.svg" />
     <Content Include="Resources\Themes\logo_black.svg" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Resources\Images\" />
     <Folder Include="Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
